@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='search'>
+    <input placeholder='areaName' name='citiid' bindblur='getCityId'></input>
+  </view>
+</view>
