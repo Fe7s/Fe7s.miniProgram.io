@@ -1,1 +1,19 @@
 /**index.wxss**/
+
+.search{
+  width: 100%;
+  height:100rpx;
+  background-color: yellowgreen;
+  position: relative;
+  padding: 15rpx 0;
+  box-sizing: border-box;
+}
+.search input{
+  display: block;
+  width: 90%;
+  height: 70rpx;
+  background-color: white;
+  margin: auto;
+  border-radius: 35rpx;
+  text-align: center;
+}

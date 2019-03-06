@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class='container'>
   <view class='search'>
-    <input placeholder='areaName' name='citiid' bindblur='getCityId'></input>
+    <input placeholder='编码：1开始' name='citiid' bindblur='getCityId'></input>
   </view>
 </view>
