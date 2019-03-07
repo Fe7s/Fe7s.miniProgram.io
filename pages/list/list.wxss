@@ -20,7 +20,7 @@
 }
 
 .list-cell-describe{
-  width: 100%;
+  width: 100%-20rpx;
   font-size: 17rpx;
-  padding: 0 0 0 10rpx;
+  padding: 0 10rpx 0 10rpx;
 }

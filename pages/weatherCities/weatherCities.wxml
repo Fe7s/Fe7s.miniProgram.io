@@ -1,0 +1,11 @@
+<!--pages/weatherCities/weatherCities.wxml-->
+
+<view class='Cities-view'>
+  <block wx:for="{{result}}">
+    <navigator url='../weatherYestoday/weatherYestoday?id={{item.id}}'>
+      <view class='Cities-cell'>
+        <text>{{item.city_name}}</text>
+      </view>
+    </navigator>
+  </block>
+</view>

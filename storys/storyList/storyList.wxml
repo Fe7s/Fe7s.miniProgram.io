@@ -1,0 +1,27 @@
+<!--storys/storyList/storyList.wxml-->
+<view>
+  <swiper class='swiper' indicator-dots='true' indicator-color='#fff' indicator-active-color='red' autoplay='true' circular='true'>
+    <block wx:for="{{data}}">
+      <navigator url='../storyIntro/storyIntro?introduction={{item.introduction}}&bookname={{item.bookname}}&book_cover={{item.book_cover}}'>
+        <swiper-item>
+          <image src="{{item.book_cover}}" class='slide-image'></image>
+          <text class='title'>《{{item.bookname}}》</text>
+        </swiper-item>
+      </navigator>
+    </block>
+  </swiper>
+  <block wx:for="{{data}}">
+    <navigator url='../storyIntro/storyIntro?introduction={{item.introduction}}&bookname={{item.bookname}}&book_cover={{item.book_cover}}'>
+      <view class='story-item'>
+        <view class='story-item-left'>
+          <text class='story-item-left-title'>书名:《 {{item.bookname}}》</text>
+          <text class='story-item-left-author'>作者: {{item.author_name}}</text>
+        </view>
+        <view class='story-item-right'>
+        <image src='{{item.book_cover}}' class='story-item-right-image'></image>
+        </view>
+      </view>
+    </navigator>
+  </block>
+</view>
+

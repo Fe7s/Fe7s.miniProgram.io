@@ -2,8 +2,12 @@
   "pages": [
     "pages/list/list",
     "pages/Home/Home",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/weatherProvince/weatherProvince",
+    "pages/weatherCities/weatherCities",
+    "pages/weatherYestoday/weatherYestoday",
+    "storys/storyList/storyList",
+    "storys/storyIntro/storyIntro"
   ],
   "window": {
     "backgroundTextStyle": "light",

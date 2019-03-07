@@ -1,0 +1,26 @@
+/* storys/storyIntro/storyIntro.wxss */
+.book-detail{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.book-image{
+  width: 70%;
+  height: 300;
+  padding: 0  15%;
+}
+
+.book-name{
+  width: 100%;
+  line-height: 50rpx;
+  text-align:center;
+  display: inline-block;
+}
+
+.book-introduction{
+  width: 90%;
+  padding-left: 5%;
+  padding-top: 20rpx;
+  word-wrap: break-word;
+}
