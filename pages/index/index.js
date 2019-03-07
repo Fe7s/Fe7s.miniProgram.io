@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
+// const app = getApp()
 
 Page({
 
@@ -17,7 +17,7 @@ Page({
   },
   getCityId:function(event){
     this.setData({
-      id:event.detail.value
+      id:event.detail.value == '' ? '1' : event.detail.value
     })
     this.getResult()
   },
@@ -27,7 +27,7 @@ Page({
     var day = new Date();
     day.setTime(day.getTime() - 24 * 60 * 60 * 1000);
     var today = day.getFullYear() + "-" + (day.getMonth() + 1) + "-" + day.getDate();
-    wx.request({
+    wx.request({ 
       url: 'http://v.juhe.cn/historyWeather/weather',
       data:{
         key:'0b218699fe61b0e3c79bb4e782cd1420',
