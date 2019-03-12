@@ -1,8 +1,0 @@
-<!--storys/storyIntro/storyIntro.wxml-->
-<view class='book-detail'>
-  <image src='{{book_cover}}' class='book-image'></image>
-  <text class='book-name'>著作: 《{{bookname}}》</text>
-  <view class='book-introduction'>
-    <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;简介: {{introduction}}</text>
-  </view>
-</view>
