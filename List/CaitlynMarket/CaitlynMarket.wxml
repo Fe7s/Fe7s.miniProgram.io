@@ -1,0 +1,30 @@
+<!--List/CaitlynMarket/CaitlynMarket.wxml-->
+
+<wxs module = "filters" src="CaitlynMarket.wxs"></wxs>
+
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="{{circular}}"
+>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image wx:if="{{item}}"  src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='content'>
+  <block wx:for="{{headicon}}">
+    <view class='head'>
+      <image src="{{item.url}}"></image>
+      <view>{{item.name}}</view>
+      <!-- <view class='prince'>${{filters.toFix(item.prince,2)}}</view> -->
+      <view>${{item.prince}}</view>
+    </view>
+  </block>
+</view>
+
+

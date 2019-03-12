@@ -1,18 +1,35 @@
 {
   "pages": [
-    "pages/list/list",
-    "pages/Home/Home",
-    "pages/logs/logs",
-    "pages/weatherProvince/weatherProvince",
-    "pages/weatherCities/weatherCities",
-    "pages/weatherYestoday/weatherYestoday",
-    "storys/storyList/storyList",
-    "storys/storyIntro/storyIntro"
+    "Home/Home/Home",
+    "List/List/List",
+    "List/weather/weatherProvince/weatherProvince",
+    "List/weather/weatherCities/weatherCities",
+    "List/weather/weatherYestoday/weatherYestoday",
+    "List/novel/novelList/novelList",
+    "List/novel/novelIntro/novelIntro",
+    "pages/test/test",
+    "List/CaitlynMarket/CaitlynMarket"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#2c2c2c",
+    "navigationBarTitleText": "Dove笔记",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "Home/Home/Home",
+        "text": "Home",
+        "iconPath": "/images/home_nor.png",
+        "selectedIconPath": "/images/home_sel.png"
+      },
+      {
+        "pagePath": "List/List/List",
+        "text": "List",
+        "iconPath": "/images/list_nor.png",
+        "selectedIconPath": "/images/list_sel.png"
+      }
+    ]
   }
 }

@@ -1,0 +1,28 @@
+/* List/CaitlynMarket/CaitlynMarket.wxss */
+
+swiper swiper-item image{
+  width: 100%;
+  height: 400rpx;
+}
+
+.head{
+  width: 30%;
+  height: 300rpx;
+  font-size: 22rpx;
+}
+
+.head image{
+  width: 100%;
+  height: 200rpx;
+}
+.prince{
+  color: green;
+}
+
+.content{
+  width: 100%;
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
