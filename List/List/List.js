@@ -9,6 +9,7 @@ Page({
    */
   data: {
     list:[
+      { title: "阿卡丽的商场", describe: "阿卡丽的商城用来模拟一个商场的活动页面和一些详情", url: "../AkaliMarket/AkaliActivity/AkaliActivity" },
       { title: "皮城女警商城", describe: "皮城女警的商城页面，用来模仿一个交易物品展示的页面", url: "../CaitlynMarket/CaitlynMarket" },
       {title: "昨天天气查询", describe: "预报接口收费，用查询历史的接口，所以只能查询当天之前的，这里默认查询昨天的，免费次数也有限制，流量就是money啊！！", url:"../weather/weatherProvince/weatherProvince"},
       { title: "小说简介", describe: "简单的介绍小说", url: "../novel/novelList/novelList"},

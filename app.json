@@ -8,7 +8,8 @@
     "List/novel/novelList/novelList",
     "List/novel/novelIntro/novelIntro",
     "pages/test/test",
-    "List/CaitlynMarket/CaitlynMarket"
+    "List/CaitlynMarket/CaitlynMarket",
+    "List/AkaliMarket/AkaliActivity/AkaliActivity"
   ],
   "window": {
     "backgroundTextStyle": "light",

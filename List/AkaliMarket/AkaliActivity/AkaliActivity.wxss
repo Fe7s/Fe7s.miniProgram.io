@@ -1,0 +1,53 @@
+/* List/AkaliMarket/AkaliActivity/AkaliActivity.wxss */
+
+.content{
+width: 100%;
+height: 400rpx;
+}
+
+.head-image{
+  width: 100%;
+  height: 100%;
+}
+
+.active-model{
+  width: 96%;
+  margin: 0 auto;
+}
+.active-title{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: black;
+  height: 30rpx;
+  padding-top: 20rpx;
+}
+.active-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.active-card{
+  margin-top: 30rpx;
+  width: 46%;
+  border-radius: 10rpx;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 5rpx gray;
+}
+.active-card-image{
+  width: 100%;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.active-card-text{
+  font-size: 32rpx;
+  color: gray;
+}
+
+.history{
+  font-size: 32rpx;
+  color: gray;
+  height: 100rpx;
+  text-align: center;
+}

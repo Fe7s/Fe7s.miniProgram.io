@@ -1,0 +1,94 @@
+<!--List/AkaliMarket/AkaliActivity/AkaliActivity.wxml-->
+
+
+
+<swiper class='content' indicator-dots='true' indicator-active-color='red' indicator-color='white' autoplay='true' interval='2000' duration='1000' circular='true'>
+  <navigator url=''>
+    <block wx:for="{{imageURL}}">
+      <swiper-item>
+        <image src='{{item}}' class='head-image'></image>
+      </swiper-item>
+    </block>
+  </navigator>
+</swiper>
+
+<view class='active-model'>
+  <view class='active-title'>节日活动</view>
+  <view class='active-cards'>
+
+    <view class='active-card'>
+      <image class='active-card-image' src='/images/picheng_head_icon.png'></image>
+      <text class='active-card-text'>头像物语</text>
+    </view>
+
+    <view class='active-card'>
+      <image class='active-card-image' src='/images/eye_icon.jpg'></image>
+      <text class='active-card-text'>守卫者物语</text>
+    </view>
+
+  </view>
+</view>
+
+<view class='active-model'>
+  <view class='active-title'>提莫专区</view>
+  <view class='active-cards'>
+
+    <view class='active-card'>
+      <image class='active-card-image' src='/images/timor01.jpg'></image>
+      <text class='active-card-text'>乖提莫，不骗人</text>
+    </view>
+
+    <view class='active-card'>
+      <image class='active-card-image' src='/images/timor02.jpg'></image>
+      <text class='active-card-text'>提莫队长，半价限免</text>
+    </view>
+
+  </view>
+</view>  
+
+
+<view class='active-model'>
+    <view class='active-cards'>
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor03.jpg'></image>
+        <text class='active-card-text'>提莫的爱情</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor04.jpg'></image>
+        <text class='active-card-text'>竹林斥候</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor01.jpg'></image>
+        <text class='active-card-text'>乖提莫，不骗人</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor02.jpg'></image>
+        <text class='active-card-text'>提莫队长，半价限免</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor03.jpg'></image>
+        <text class='active-card-text'>提莫的爱情</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor04.jpg'></image>
+        <text class='active-card-text'>竹林斥候</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor01.jpg'></image>
+        <text class='active-card-text'>乖提莫，不骗人</text>
+      </view>
+
+      <view class='active-card'>
+        <image class='active-card-image' src='/images/timor02.jpg'></image>
+        <text class='active-card-text'>提莫队长，半价限免</text>
+      </view>
+  </view>
+</view>
+
+<view class='history'>历史购买</view>

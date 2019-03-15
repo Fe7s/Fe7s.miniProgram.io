@@ -1,2 +1,8 @@
 <!--pages/Home/Home.wxml-->
-<text>pages/Home/Home.wxml</text>
+<swiper>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image wx:if="{{item}}"  src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
